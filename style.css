@@ -1,24 +1,31 @@
+body {
+	background-image: url(_images/background_lined.jpg)
+
+}
+
 #wrapper {
 
 	width: 1200px;
 	min-height: 1500px;
 	margin-left: 100px;
-	background-color: yellow;
+	background-color: white;
 	position: relative;
 }
 
 .subwrapper {
-	width: 1100px;
+	width: 950px;
 	height: 100%;
 	margin-top: 50px;
-	margin-left: 120px;
+	margin-left: 100px;
+	border: 8px solid white;
 }
 
 .header { 
 
 	height: 150px;
-	background-color: blue;
-	border-bottom: 4px solid black;
+	width: 100%;
+	background-color: #ffc63c;
+	border-bottom: 8px solid #ffa162;
 
 }
 
@@ -59,13 +66,12 @@ li	{
 }
 
 .footer {
-	height: 130px;
+	height: 180px;
 	width: 1200px;
-	background-color: navy;
-	border-top: 2px;
+	background-color: #ffc63c;
+	border-top: 8px solid #ffa162;
 	position: absolute;
     bottom: 0;
-    border-top: 2px solid black;
 }
 
 .footer	a  {
@@ -80,12 +86,13 @@ li	{
 	text-decoration: none;
 }
 
+/*Index page specific*/
+
 .slider {
 	height: 300px;
 	width: 950px;
 	/*margin: 50px auto;*/
 	position: relative;
-	border: 4px solid black;
 }
 
 #image {
@@ -134,47 +141,39 @@ li	{
 	right: 0px;
 }
 
+.quote_section {
+	width: 200px;
+	height: 200px;
+	margin-top: 140px;
+	margin-bottom: 80px;
+	margin-right: 50px;
+	margin-left: 50px;
+	border-radius: 15%;
+	float: left;
+}
+
+.quote_section img {
+	width: 100%;
+	height: 100%;
+}
+
+.quote_section p {
+	font-family: verdana;
+	font-size: 12px;
+
+}
+
 .donate {
-	width: 950px;
-	height: 150px;
-	margin-top: 30px;
-	border: 2px solid black;
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 200px;
 	text-align: center;
-	/*margin-left: 105px;*/
+
 }
 
-.quote1 {
-	width: 200px;
-	height: 200px;
-	margin: 20px;
-	border: 2px solid black;
-	border-radius: 15%;
-	float: left;
-}
-
-.quote2 {
-	width: 200px;
-	height: 200px;
-	margin: 20px;
-	border: 2px solid black;
-	border-radius: 15%;
-	float: left;
-}
-
-.quote3 {
-	width: 100px;
-	height: 200px;
-	margin: 20px;
-	border: 2px solid black;
-	border-radius: 15%;
-	float: left;
-}
-
-.quote4 {
-	width: 200px;
-	height: 200px;
-	margin: 20px;
-	border: 2px solid black;
-	border-radius: 15%;
-	float: left;
+.donate img { 
+	margin-top: 100px;
+	margin-bottom: 100px;
+	max-width: 100%;
+	max-height: 100%;
 }
