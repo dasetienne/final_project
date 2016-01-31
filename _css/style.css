@@ -3,10 +3,27 @@ body {
 
 }
 
+#wrapper {
+
+	width: 1200px;
+	min-height: 1500px;
+	margin-left: 100px;
+	background-color: white;
+	position: relative;
+}
+
+.subwrapper {
+	width: 950px;
+	height: 100%;
+	margin-top: 50px;
+	margin-left: 350px;
+	border: 8px solid white;
+}
+
 .header { 
 
 	height: 150px;
-	width: 2000px;
+	width: 100%;
 	background-color: #63bfb8;
 	border-bottom: 8px solid #0c585a;
 
@@ -15,6 +32,7 @@ body {
 .hdrimg	{
 	padding: 30px;
 	margin-bottom: 20px;
+	margin-left: 400px;
 	float: left;
 }
 
@@ -64,40 +82,38 @@ li	{
 
 .footer {
 	height: 180px;
-	width: 2000px;
+	width: 100%;
 	background-color: #63bfb8;
 	border-top: 8px solid #0c585a;
 	position: absolute;
-    bottom: 0;
+	padding-top: 100px;
+/*    bottom: 0;*/
+	clear: all;
+	margin-top: 500px;
 }
 
 .footer	a  {
+/*	font-family: "Helvetica", sans-serif;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;*/
+/*	color: white;
+	text-decoration: none;
+	font-family: helvetica;
+	margin-left: 200px;*/
 	font-family: "Helvetica", sans-serif;
 	font-size: 20px;
 	color: white;
 	text-decoration: none;
+	font-weight: bold;
+	margin-left: 400px;
 }
+
+/*Footer text needs margin top and be in line with */
 
 .footer	a:hover  {
 	color: #ed5628;
 	text-decoration: none;
-}
-
-#wrapper {
-
-	width: 1200px;
-	min-height: 1500px;
-	margin-left: 500px;
-	background-color: white;
-	position: relative;
-}
-
-.subwrapper {
-	width: 950px;
-	height: 100%;
-	margin-top: 50px;
-	margin-left: 2000px;
-	border: 8px solid white;
 }
 
 /*Index page specific*/
@@ -176,14 +192,46 @@ li	{
 .donate {
 	max-width: 100%;
 	max-height: 100%;
-	margin-top: 200px;
 	text-align: center;
+	margin-bottom: 100px;
 
 }
 
 .donate img { 
 	margin-top: 100px;
-	margin-bottom: 100px;
 	max-width: 100%;
 	max-height: 100%;
 }
+
+.social_media_title {
+	font-family: helvetica;
+	text-align: center;
+	/*margin-left: 300px;*/
+	color: #0c585a;
+	font-size: 40px;
+	font-weight: bold;	
+
+}
+	
+
+.twitter_embed {
+
+	height: 300px;
+	width: 300px;
+	margin-top: 60px;
+	margin-bottom: 300px;
+	margin-left: 50px;
+	margin-right: 200px;
+	float: left;
+}
+
+.soundcloud_embed {
+
+	height: 300px;
+	width: 300px;
+	margin-top: 130px;
+	margin-bottom: 200px;
+	margin-right: 50px;
+	float: left;
+}
+
