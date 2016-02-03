@@ -1,0 +1,182 @@
+body {
+	background-image: url(_images/background_lined.jpg)
+
+}
+
+#wrapper {
+
+	width: 1200px;
+/*	min-height: 1500px;*/
+	margin-left: 100px;
+	background-color: white;
+	position: relative;
+}
+
+.subwrapper {
+	width: 950px;
+	height: 100%;
+	margin-top: 50px;
+	margin-left: 350px;
+	border: 8px solid white;
+}
+
+.header { 
+
+	height: 150px;
+	width: 100%;
+	background-color: #63bfb8;
+	border-bottom: 8px solid #0c585a;
+
+}
+
+.hdrimg	{
+	padding: 30px;
+	margin-bottom: 20px;
+	margin-left: 400px;
+	float: left;
+}
+
+.hdrimg img {
+
+	width: 100px;
+    height: 100px;
+
+}
+
+.nav_main	{
+	color: white;
+	padding-top: 65px;
+	padding-left: 50px;
+	float: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li	{
+	display: inline;
+	padding-right: 70px;
+}
+
+.nav_bar a	{
+	font-family: "Helvetica", sans-serif;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 15px;
+}
+
+.nav_bar	a:hover {
+	color: #ed5628;
+	text-decoration: none;
+}
+
+
+.content {
+		box-sizing: border-box;
+
+}
+
+.footer {
+	height: 180px;
+	width: 100%;
+	background-color: #63bfb8;
+	border-top: 8px solid #0c585a;
+	position: absolute;
+	padding-top: 100px;
+	clear: all;
+	margin-top: 500px;
+}
+
+.footer	a  {
+	font-family: "Helvetica", sans-serif;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	margin-left: 400px;
+}
+
+/*Footer text needs margin top and be in line with */
+
+.footer	a:hover  {
+	color: #ed5628;
+	text-decoration: none;
+}
+
+/*Our mission specific*/
+
+.top_column {
+	width: 950px;
+	height: 500px;
+	margin-top: 150px;
+	border: 4px solid black;
+	font-family: helvetica;
+
+}
+
+.top_column_img {
+	width: 300px;
+	height: 300px;
+	margin: 30px 20px 15px 20px;
+	border: 4px solid #0c585a;
+	float: left;
+}
+
+.our_mission_txt {
+	font-size: 20px;
+	font-family: helvetica;
+	color: ;
+	margin-top: 40px	;
+}
+
+/*.top_column img {
+	width: 300px;
+	height: 300px;
+	margin-top: 50px;
+	border: 4px solid #0c585a;
+	float: left;
+
+}*/
+
+.headline {
+	font-family: helvetica;
+	text-align: center;
+	/*margin-left: 300px;*/
+	color: #0c585a;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.bottom_column {
+	width: 950px;
+	height: 500px;
+	border: 4px solid black;
+
+}
+
+.top_column p {
+	float: left;
+	margin-top: 20px;
+}
+
+.photoright {
+	max-width: 600px;
+	height: 350px;
+	float: right;
+    border: 3px solid #257eff;
+    margin:10px;
+}
+
+.signature {
+	font-size: 40px;
+	font-weight: bold;	
+	color: #0c585a;
+	text-align: right;
+	text-decoration: none;
+	margin-bottom: 60px;
+}

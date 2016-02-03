@@ -1,8 +1,3 @@
-body {
-	background-image: url(_images/background_lined.jpg)
-
-}
-
 #wrapper {
 
 	width: 1200px;
@@ -67,6 +62,7 @@ li	{
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
+	margin: 15px;
 }
 
 .nav_bar	a:hover {
@@ -165,6 +161,26 @@ li	{
 	position: absolute;
 	top: 40%;
 	right: 0px;
+}
+
+.description_section {
+	width: 950px;
+	height: 300px;
+	border: 8px solid #63bfb8;
+	margin-top: 100px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;	
+
+}
+
+.description_section p {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;	
+	margin-top: 60px;
+	color: #0c585a ;
+
 }
 
 .quote_section {
